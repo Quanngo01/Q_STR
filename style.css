@@ -1,0 +1,30 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    #eea2a2 0%,
+    #bbc1bf 19%,
+    #57c6e1 42%,
+    #b49fda 79%,
+    #7ac5d8 100%
+  );
+}
+h1 {
+  text-align: center;
+  color: blue;
+  background-image: linear-gradient(to right, #4c721e, #1e726f 30%, #2a3198);
+  font-size: 4em;
+  text-shadow: 2rem -1rem 5px rgb(255, 196, 0);
+  padding: 2rem 0;
+  background-clip: text;
+}
+
+table {
+  border: 3px solid #1e726f;
+  margin: 3rem auto;
+}
+table th,
+td {
+  border: 0.1rem solid #2a3198;
+  margin: 0;
+  padding: 0.5rem;
+}
