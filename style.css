@@ -1,4 +1,6 @@
 body {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   background-image: linear-gradient(
     to right,
     #eea2a2 0%,
@@ -16,6 +18,11 @@ h1 {
   text-shadow: 2rem -1rem 5px rgb(255, 196, 0);
   padding: 2rem 0;
   background-clip: text;
+}
+
+#table_frame {
+  margin: auto;
+  overflow: auto;
 }
 
 table {
