@@ -11,16 +11,17 @@ body {
 h1 {
   text-align: center;
   color: blue;
-  background-image: linear-gradient(to right, #4c721e, #1e726f 30%, #2a3198);
   font-size: 4em;
   text-shadow: 2rem -1rem 5px rgb(255, 196, 0);
-  padding: 2rem 0;
   background-clip: text;
 }
 
+#table_frame {
+  overflow: auto;
+}
 table {
   border: 3px solid #1e726f;
-  margin: 3rem auto;
+  margin: auto;
 }
 table th,
 td {
